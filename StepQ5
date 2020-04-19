@@ -1,0 +1,4 @@
+### task 5
+docker volume create piyushq5
+docker run -it --name piyushc5q5 -v piyushq5:/adhocvol -v /etc/passwd:/user.txt alpine sh
+wc -l user.txt >./adhovol/userscount.txt 
