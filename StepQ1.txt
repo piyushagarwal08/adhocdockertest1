@@ -1,4 +1,4 @@
-## task 1
+# task 1
 mkdir pykid
 cd pykid
 vim Dockerfile
@@ -7,9 +7,10 @@ vim Dockerfile
 
 from apline
 maintainer pykid
-cmd echo `date + "%H:%M:%S">question1.txt
+cmd date +%T 
 
 # to build image and run conatiner
 
 docker build -t alpine:piyush .
-docker run -itd --name piyushc1q1 alpine:piyush
+docker run -itd --name piyushc1q1 alpine:piyush > cat question1.txt
+docker start -i piyushc1q1 | > cat >> question1.txt
