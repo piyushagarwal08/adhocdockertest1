@@ -1,0 +1,5 @@
+# task 2
+
+docker build -t adhoc:piyush://github.com/redashu/summer2020dockertest.git
+docker tag adhoc:piyush pykid/pykid
+docker push pykid/pykid
