@@ -1,0 +1,4 @@
+# task 3
+
+docker pull dockerashu/ckad:v2
+docker run -itd --name piyushc3q3 -p 7564:80 dockerashu/ckad:v2
